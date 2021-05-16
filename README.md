@@ -1,5 +1,5 @@
 # Cryptogotchi
-Adopt a cryptocurrency in this Tamagotchi style web game
+Adopt a cryptocurrency in this Tamagotchi style web game written using React JS.
 
 [Try it here!](https://jamesfator.com/cryptogotchi/)
 
