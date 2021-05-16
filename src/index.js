@@ -182,7 +182,7 @@ class Game extends React.Component {
         hasCrashed: state.value < 1,
         imgBig: newImgSize,
       }));
-    }, 8);
+    }, 16);
   }
 
   componentWillUnmount() {
@@ -192,10 +192,10 @@ class Game extends React.Component {
   getNewValue() {
     if (this.state.valueDirection > 1) {
       // Upwards trend
-      return [this.state.value + 2, this.state.valueDirection - 2];
+      return [this.state.value + 1, this.state.valueDirection - 1];
     } else if (this.state.valueDirection < -1) {
       // Downwards trend
-      return [this.state.value - 2, this.state.valueDirection + 2];
+      return [this.state.value - 1, this.state.valueDirection + 1];
     } else {
       // Randomly choose a new direction, with a bias towards downward trend
       return [this.state.value, Math.random() * 150 - 100];
