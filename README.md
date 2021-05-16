@@ -5,6 +5,8 @@ Adopt a cryptocurrency in this Tamagotchi style web game
 
 ![Screenshot](/cryptogotchi.png)
 
+Note: Buttons don't actually change the value of the coin. It's supposed to be a terrible metahpor for the lack of controll we really have.
+
 ## Usage
 ```bash
 # Clone the repo.
