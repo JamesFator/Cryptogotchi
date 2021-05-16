@@ -1,6 +1,10 @@
 # Cryptogotchi
 Adopt a cryptocurrency in this Tamagotchi style web game
 
+[Try it here!](https://jamesfator.com/cryptogotchi/)
+
+![Screenshot](/cryptogotchi.png)
+
 ## Usage
 ```bash
 # Clone the repo.
