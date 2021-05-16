@@ -1,0 +1,200 @@
+BitcoinBTC
+EthereumETH
+Binance CoinBNB
+CardanoADA
+DogecoinDOGE
+TetherUSDT
+XRP XRP
+PolkadotDOT
+Internet ComputerICP
+Bitcoin CashBCH
+UniswapUNI
+LitecoinLTC
+ChainlinkLINK
+StellarXLM
+USD CoinUSDC
+SolanaSOL
+Ethereum ClassicETC
+VeChainVET
+PolygonMATIC
+EOS EOS
+THETA THETA
+TRON TRX
+Wrapped BitcoinWBTC
+FilecoinFIL
+Binance USDBUSD
+MoneroXMR
+AaveAAVE
+NeoNEO
+SHIBA INUSHIB
+KlaytnKLAY
+TerraLUNA
+Bitcoin SVBSV
+Huobi TokenHT
+CosmosATOM
+IOTAM IOTA
+TezosXTZ
+FTX TokenFTT
+DaiDAI
+PancakeSwapCAKE
+MakerMKR
+KusamaKSM
+AvalancheAVAX
+THORChainRUNE
+AlgorandALGO
+Crypto.com CoinCRO
+BitTorrentBTT
+CompoundCOMP
+UNUS SED LEO LEO
+DashDASH
+WavesWAVES
+ZcashZEC
+ElrondEGLD
+NEM XEM
+Bitcoin BEP2BTCB
+Hedera HashgraphHBAR
+yearn.financeYFI
+DecredDCR
+ChilizCHZ
+NEAR ProtocolNEAR
+SynthetixSNX
+ZilliqaZIL
+TerraUSDUST
+SushiSwapSUSHI
+QtumQTUM
+OKB OKB
+DecentralandMANA
+NexoNEXO
+HoloHOT
+TelcoinTEL
+RevainREV
+StacksSTX
+Basic Attention TokenBAT
+Bitcoin GoldBTG
+Theta FuelTFUEL
+CelsiusCEL
+The GraphGRT
+OntologyONT
+Enjin CoinENJ
+FantomFTM
+DigiByteDGB
+HarmonyONE
+UMA UMA
+NanoNANO
+HorizenZEN
+SiacoinSC
+BancorBNT
+OMG NetworkOMG
+0xZRX
+ICON ICX
+Paxos StandardPAX
+HeliumHNT
+RavencoinRVN
+Curve DAO TokenCRV
+TrueUSDTUSD
+VenusXVS
+SwissBorgCHSB
+BakeryTokenBAKE
+CeloCELO
+AnkrANKR
+Reserve RightsRSR
+KuCoin TokenKCS
+ArweaveAR
+1inch1INCH
+LiskLSK
+HUSD HUSD
+FlowFLOW
+Bitcoin DiamondBCD
+IOST IOST
+Verge XVG
+Voyager Token VGX
+RenREN
+LoopringLRC
+LivepeerLPT
+iExec RLCRLC
+GateTokenGT
+Conflux NetworkCFX
+Nervos NetworkCKB
+QuantQNT
+StatusSNT
+DentDENT
+Kyber Network Crystal LegacyKNC
+Bitcoin Standard Hashrate TokenBTCST
+WazirXWRX
+renBTCRENBTC
+Alpha Finance LabALPHA
+BTMX BTMX
+MdexMDX
+ReefREEF
+SKALE NetworkSKL
+Ocean ProtocolOCEAN
+StorjSTORJ
+VeThor TokenVTHO
+Neutrino USDUSDN
+Energy Web TokenEWT
+IoTeXIOTX
+SerumSRM
+WootradeWOO
+GolemGLM
+Injective ProtocolINJ
+BalancerBAL
+Origin ProtocolOGN
+PrometeusPROM
+AugurREP
+StratisSTRAX
+GnosisGNO
+Kava.ioKAVA
+Fetch.aiFET
+CartesiCTSI
+NKN NKN
+SwipeSXP
+FUNTokenFUN
+StormXSTMX
+ErgoERG
+SteemSTEEM
+Celer NetworkCELR
+SingularityNETAGI
+ArdorARDR
+ZKSwapZKS
+DODO DODO
+AragonANT
+The SandboxSAND
+ABBC CoinABBC
+CivicCVC
+KomodoKMD
+WAX WAXP
+COTI COTI
+Band ProtocolBAND
+MCO MCO
+Haven ProtocolXHV
+WanchainWAN
+MaidSafeCoinMAID
+Dogelon MarsELON
+NumeraireNMR
+OrbsORBS
+WINkLinkWIN
+MediBlocMED
+BytomBTM
+VaiVAI
+VelasVLX
+NuCypherNU
+UnibrightUBT
+ZB TokenZB
+JUST JST
+BitSharesBTS
+SoraXOR
+Badger DAOBADGER
+Travala.comAVA
+UtrustUTK
+Function XFX
+TrustSwapSWAP
+SyscoinSYS
+Phala NetworkPHA
+ArkARK
+SyntropyNOIA
+Uquid CoinUQC
+PolkastarterPOLS
+MetalMTL
+PolymathPOLY
+OrchidOXT
+Ontology GasONG

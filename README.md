@@ -5,10 +5,14 @@ Adopt a cryptocurrency in this Tamagotchi style web game
 ```bash
 # Clone the repo.
 $ git clone https://github.com/JamesFator/Cryptogotchi.git && cd Cryptogotchi
-# Simply open the HMTL file.
-$ open index.html
+# If you want to test the page
+$ npm start
+# To build
+$ npm run build
 ```
 
 ## Credits
 
 [Parallax Star background in CSS](https://codepen.io/saransh/pen/BKJun)
+[Create React App](https://github.com/facebook/create-react-app)
+[spothq/cryptocurrency-icons](https://github.com/spothq/cryptocurrency-icons)
