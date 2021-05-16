@@ -1,6 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
 
 function coinToSrcURL(coin) {
   return "assets/" + coin.toLowerCase().replace(/ /g, "_") + ".svg";
@@ -51,42 +51,60 @@ class Selection extends React.Component {
     super(props);
     this.trigger = props.trigger;
     this.coins = [
-      ["Bitcoin", "Ethereum", "Binance Coin"],
-      ["Cardano", "Dogecoin", "Tether"],
-      ["XRP", "Polkadot", "Bitcoin Cash"],
-      ["Uniswap", "Litecoin", "Chainlink"],
-      ["Stellar", "USD Coin", "Solana"],
-      ["Ethereum Classic", "VeChain", "Polygon"],
-      ["EOS", "THETA", "TRON"],
-      ["Wrapped Bitcoin", "Filecoin", "Monero"],
-      ["Aave", "Neo", "Huobi Token"],
-      ["Cosmos", "Tezos", "Dai"],
-      ["Maker", "Kusama", "Algorand"],
-      ["BitTorrent", "Compound", "UNUS SED LEO"],
-      ["Dash", "Waves", "Zcash"],
-      ["NEM", "yearn.finance", "Decred"],
-      ["Synthetix", "Zilliqa", "SushiSwap"],
-      ["Qtum", "Decentraland", "Nexo"],
-      ["Holo", "Telcoin", "Stacks"],
-      ["Basic Attention Token", "Bitcoin Gold", "The Graph"],
-      ["Ontology", "Enjin Coin", "DigiByte"],
-      ["UMA", "Nano", "Horizen"],
-      ["Siacoin", "Bancor", "OMG Network"],
-      ["0x", "ICON", "Paxos Standard"],
-      ["Ravencoin", "Curve DAO Token", "Ankr"],
-      ["KuCoin Token", "Lisk", "Bitcoin Diamond"],
-      ["IOST", "Verge", "Ren"],
-      ["Loopring", "Livepeer", "Status"],
-      ["Dent", "Kyber Network Crystal Legacy", "Storj"],
-      ["VeThor Token", "Balancer", "Augur"],
-      ["Gnosis", "NKN", "FUNToken"],
-      ["Steem", "Ardor", "Aragon"],
-      ["Civic", "Komodo", "Band Protocol"],
-      ["MCO", "Wanchain", "MaidSafeCoin"],
-      ["Numeraire", "MediBloc", "Bytom"],
-      ["BitShares", "Utrust", "Syscoin"],
-      ["Ark", "Metal", "Polymath"],
-      ["Orchid", "Ontology Gas"],
+      ["Bitcoin", "Ethereum"],
+      ["Binance Coin", "Cardano"],
+      ["Dogecoin", "Tether"],
+      ["XRP", "Polkadot"],
+      ["Bitcoin Cash", "Uniswap"],
+      ["Litecoin", "Chainlink"],
+      ["Stellar", "USD Coin"],
+      ["Solana", "Ethereum Classic"],
+      ["VeChain", "Polygon"],
+      ["EOS", "THETA"],
+      ["TRON", "Wrapped Bitcoin"],
+      ["Filecoin", "Monero"],
+      ["Aave", "Neo"],
+      ["Huobi Token", "Cosmos"],
+      ["Tezos", "Dai"],
+      ["Maker", "Kusama"],
+      ["Algorand", "BitTorrent"],
+      ["Compound", "UNUS SED LEO"],
+      ["Dash", "Waves"],
+      ["Zcash", "NEM"],
+      ["yearn.finance", "Decred"],
+      ["Synthetix", "Zilliqa"],
+      ["SushiSwap", "Qtum"],
+      ["Decentraland", "Nexo"],
+      ["Holo", "Telcoin"],
+      ["Stacks", "Basic Attention Token"],
+      ["Bitcoin Gold", "The Graph"],
+      ["Ontology", "Enjin Coin"],
+      ["DigiByte", "UMA"],
+      ["Nano", "Horizen"],
+      ["Siacoin", "Bancor"],
+      ["OMG Network", "0x"],
+      ["ICON", "Paxos Standard"],
+      ["Ravencoin", "Curve DAO Token"],
+      ["Ankr", "KuCoin Token"],
+      ["Lisk", "Bitcoin Diamond"],
+      ["IOST", "Verge"],
+      ["Ren", "Loopring"],
+      ["Livepeer", "Status"],
+      ["Dent", "Kyber Network Crystal Legacy"],
+      ["Storj", "VeThor Token"],
+      ["Balancer", "Augur"],
+      ["Gnosis", "NKN"],
+      ["FUNToken", "Steem"],
+      ["Ardor", "Aragon"],
+      ["Civic", "Komodo"],
+      ["Band Protocol", "MCO"],
+      ["Wanchain", "MaidSafeCoin"],
+      ["Numeraire", "MediBloc"],
+      ["Bytom", "BitShares"],
+      ["Utrust", "Syscoin"],
+      ["Ark", "Metal"],
+      ["Polymath", "Orchid"],
+      ["Ontology Gas"],
     ];
   }
 
@@ -164,7 +182,7 @@ class Game extends React.Component {
         hasCrashed: state.value < 1,
         imgBig: newImgSize,
       }));
-    }, 16);
+    }, 8);
   }
 
   componentWillUnmount() {
@@ -180,7 +198,7 @@ class Game extends React.Component {
       return [this.state.value - 2, this.state.valueDirection + 2];
     } else {
       // Randomly choose a new direction, with a bias towards downward trend
-      return [this.state.value, Math.random() * 100 - 65];
+      return [this.state.value, Math.random() * 150 - 100];
     }
   }
 
@@ -191,8 +209,9 @@ class Game extends React.Component {
         <br />
         <progress value={this.state.value} max="1000" />
         <br />
-        {this.state.imgBig && <img src={this.src} id="imgBig" alt="imgBig" />}
-        {!this.state.imgBig && (
+        {this.state.imgBig ? (
+          <img src={this.src} id="imgBig" alt="imgBig" />
+        ) : (
           <img src={this.src} id="imgSmall" alt="imgSmall" />
         )}
         <br />
@@ -253,5 +272,5 @@ ReactDOM.render(
   <React.StrictMode>
     <CryptoApp />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );

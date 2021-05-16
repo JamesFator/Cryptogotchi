@@ -1,10 +1,14 @@
 from os import path
 import shutil
 
+# To run, mkdir assets, then download the icons directory from:
+# https://github.com/spothq/cryptocurrency-icons/tree/master/svg/icon
+
+
 names = open("coin_names.txt")
 
 print_str = "["
-max_columns = 3
+max_columns = 2
 column_count = 0
 for name in names:
     name = name.strip()

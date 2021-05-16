@@ -18,5 +18,7 @@ $ npm run build
 ## Credits
 
 [Parallax Star background in CSS](https://codepen.io/saransh/pen/BKJun)
+
 [Create React App](https://github.com/facebook/create-react-app)
+
 [spothq/cryptocurrency-icons](https://github.com/spothq/cryptocurrency-icons)
