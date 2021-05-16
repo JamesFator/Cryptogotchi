@@ -1,7 +1,7 @@
 import React from "react";
 
 function coinToSrcURL(coin) {
-  return "assets/" + coin.toLowerCase().replace(" ", "_") + ".svg";
+  return "assets/" + coin.toLowerCase().replace(/ /g, "_") + ".svg";
 }
 
 class Title extends React.Component {
